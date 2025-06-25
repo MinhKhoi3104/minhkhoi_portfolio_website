@@ -236,30 +236,30 @@ Analyst or Data Engineer.
             <!-- Changed grid layout to single column -->
             <div class="grid grid-cols-1 gap-8">
                 <!-- MFast -->
-                <div class="card p-8 flex flex-col justify-between relative">
-                    <a href="https://mfast.vn/" target="_blank" rel="noopener noreferrer">
+                <a href="https://mfast.vn/" target="_blank" rel="noopener noreferrer" class="block">
+                    <div class="card p-8 flex flex-col justify-between relative hover:shadow-lg transition">
                         <img src="images/mfast_logo.png" alt="MFast Logo" class="absolute top-4 right-4 w-48 h-48 object-contain" />
-                    </a>
-                    <div>
-                        <h4 class="text-xl font-bold text-white">Data Analyst Intern</h4>
-                        <p class="text-gray-400">MFAST JOINT STOCK COMPANY</p>
-                        <p class="text-gray-400 mb-4">February 2025 - Present | Ho Chi Minh City, Vietnam</p>
-                        <h3>MFast is a brand of DigiPay JSC., a startup operating in the field of financial technology (Fintech) in Vietnam.</h3>
-                        <h4>Previous jobs at the company:</h4>
-                        <ul class="list-disc list-inside ml-4 text-gray-300 mt-2">
-                            <li>Ensure <strong>data accuracy</strong> and <strong>detect anomalies</strong> using SQL (Z-Score based detection).</li>
-                            <li><strong>Monitored data flow</strong> and <strong>resolved errors</strong> during email ingestion from partners into BigQuery and MySQL.</li>
-                            <li>Performed <strong>data reconciliation</strong> across internal systems and third-party reports.</li>
-                            <li><strong>Automated sales reporting</strong> for <strong>7 sales teams</strong> and ,<strong>service performance reporting </strong> for the BOD team, <strong>enhancing efficiency and reducing data latency.</strong></li>
-                            <li>Identify trends, risks, and improvement opportunities through data analysis.</li>
-                        </ul>
+                        <div>
+                            <h4 class="text-xl font-bold text-white">Data Analyst Intern</h4>
+                            <p class="text-gray-400">MFAST JOINT STOCK COMPANY</p>
+                            <p class="text-gray-400 mb-4">February 2025 - Present | Ho Chi Minh City, Vietnam</p>
+                            <h3>MFast is a brand of DigiPay JSC., a startup operating in the field of financial technology (Fintech) in Vietnam.</h3>
+                            <h4>Previous jobs at the company:</h4>
+                            <ul class="list-disc list-inside ml-4 text-gray-300 mt-2">
+                                <li>Ensure <strong>data accuracy</strong> and <strong>detect anomalies</strong> using SQL (Z-Score based detection).</li>
+                                <li><strong>Monitored data flow</strong> and <strong>resolved errors</strong> during email ingestion from partners into BigQuery and MySQL.</li>
+                                <li>Performed <strong>data reconciliation</strong> across internal systems and third-party reports.</li>
+                                <li><strong>Automated sales reporting</strong> for <strong>7 sales teams</strong> and ,<strong>service performance reporting </strong> for the BOD team, <strong>enhancing efficiency and reducing data latency.</strong></li>
+                                <li>Identify trends, risks, and improvement opportunities through data analysis.</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>                
+                </a>
                 <!-- Tay A -->
                 <div class="card p-8 flex flex-col justify-between relative">
                     <img src="images/taya_logo.png" alt="Tay A Logo" class="absolute top-4 right-4 w-32 h-32 object-contain" />
                     <div>
-                        <h4 class="text-xl font-bold" style="color: #FFFFFF;">Data Entry Clerk</h4>
+                        <h4 class="text-xl font-bold" style="color: #FFFFFF;">Data Entry Clerk (Part-time)</h4>
                         <p class="text-gray-400">TAY A REAL ESTATE SERVICE TRADING CO., LTD </p>
                         <p class="text-gray-400 mb-4">June 2024 - August 2024 | Ho Chi Minh City, Vietnam</p>
                         <ul class="list-disc list-inside" style="color: #B0B0B0;">
@@ -282,43 +282,52 @@ Analyst or Data Engineer.
                 Personal Projects
             </h3>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                <div class="card p-8">
-                    <div>
-                        <h4 class="text-xl font-bold" style="color: #FFFFFF;">HR Dashboards Development for Group of 20 Subsidiaries</h4>
-                        <p class="project-description" style="color: #B0B0B0;">Designed and implemented comprehensive HR dashboards covering Recruitment, Payroll, Benefit & Training data, providing critical insights for efficient human resource management across multiple entities.</p>
+                <a href="https://github.com/MinhKhoi3104/CUSTOMER-BEHAVIOUR-AND-TRENDING-PROJECT" target="_blank" rel="noopener noreferrer" class="block">
+                    <div class="card p-8">
+                        <div>
+                            <h4 class="text-xl font-bold" style="color: #FFFFFF;">CUSTOMER BEHAVIOUR AND TRENDING ANALYSIS</h4>
+                            <p class="project-description" style="color: #B0B0B0;">A data pipeline was built using PySpark and SQL to ETL LogContent and LogSearch data from DataLake to MySQL, then visualized in Power BI. The analysis measured user time per category, identified top interests, and tracked changes in search behavior between June 1–14 and July 1–14, 2022.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-4 justify-center">
+                            <span class="skill-badge">Pyspark</span>
+                            <span class="skill-badge">OLTP to OLAP</span>
+                            <span class="skill-badge">MySQL</span>
+                            <span class="skill-badge">PowerBI</span>
+                            <span class="skill-badge">Dax code</span>
+                        </div>
                     </div>
-                    <!-- Project Tags moved to bottom -->
-                    <div class="flex flex-wrap gap-2 mt-4 justify-center">
-                        <span class="skill-badge">Power BI</span>
-                        <span class="skill-badge">Data Visualization</span>
-                        <span class="skill-badge">SQL</span>
+                </a>
+                <a href="https://github.com/MinhKhoi3104/CUSTOMER360-ANALYSIS" target="_blank" rel="noopener noreferrer" class="block">
+                    <div class="card p-8">
+                        <div>
+                            <h4 class="text-xl font-bold" style="color: #FFFFFF;">CUSTOMER360 ANALYSIS</h4>
+                            <p class="project-description" style="color: #B0B0B0;">The Customer360 report applies the RFM model, IQR method, and BCG matrix to segment customers into four groups. RFM scores were calculated with SQL, visualized in Power BI using DAX, and used to generate actionable customer insights.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-4 justify-center">
+                            <span class="skill-badge">SQL</span>
+                            <span class="skill-badge">Power Query</span>
+                            <span class="skill-badge">Dax code</span>
+                            <span class="skill-badge">OLTP to OLAP</span>
+                            <span class="skill-badge">RFM</span>
+                            <span class="skill-badge">Segmentation</span>
+                            <span class="skill-badge">Campaign Development</span>
+                        </div>
                     </div>
-                </div>
-                <div class="card p-8">
-                    <div>
-                        <h4 class="text-xl font-bold" style="color: #FFFFFF;">Employee Turnover Prediction Model</h4>
-                        <p class="project-description" style="color: #B0B0B0;">Developed a Machine Learning model to predict employee turnover and identify key reasons for attrition. Achieved 86% model accuracy, reducing turnover from 25% to 17% by addressing identified factors.</p>
+                </a>
+                <a href="https://github.com/MinhKhoi3104/Ecommerce_Report" target="_blank" rel="noopener noreferrer" class="block">
+                    <div class="card p-8">
+                        <div>
+                            <h4 class="text-xl font-bold" style="color: #FFFFFF;">E-COMMERCE ANALYTICS</h4>
+                            <p class="project-description" style="color: #B0B0B0;">A report was built to evaluate a Shopee 30% off promotion and detect fraud. Data was cleaned in Excel, modeled in Power BI, and analyzed using DAX. The report identified the bill range with the most transactions and highlighted three potentially fraudulent sellers and buyers.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-4 justify-center">
+                            <span class="skill-badge">Excel</span>
+                            <span class="skill-badge">PowerBI</span>
+                            <span class="skill-badge">Dax code</span>
+                            <span class="skill-badge">Storytelling</span>
+                        </div>
                     </div>
-                    <!-- Project Tags moved to bottom -->
-                    <div class="flex flex-wrap gap-2 mt-4 justify-center">
-                        <span class="skill-badge">Machine Learning</span>
-                        <span class="skill-badge">Python</span>
-                        <span class="skill-badge">Predictive Analytics</span>
-                    </div>
-                </div>
-                <div class="card p-8">
-                    <div>
-                        <h4 class="text-xl font-bold" style="color: #FFFFFF;">AI CV Screening System</h4>
-                        <p class="project-description" style="color: #B0B0B0;">Developed an AI system to automate CV extraction and candidate analysis against job requirements. Achieved 90% data extraction accuracy, significantly reducing manual screening time by 90%.</p>
-                    </div>
-                    <!-- Project Tags moved to bottom -->
-                    <div class="flex flex-wrap gap-2 mt-4 justify-center">
-                        <span class="skill-badge">AI</span>
-                        <span class="skill-badge">Automation</span>
-                        <span class="skill-badge">Python</span>
-                        <span class="skill-badge">n8n</span> <!-- n8n tag moved here -->
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -379,14 +388,18 @@ Analyst or Data Engineer.
                 Certifications
             </h3>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="card p-6 flex flex-col justify-center items-center">
-                    <h4 class="text-lg font-semibold" style="color: #FFFFFF;">Google Data Analytics Professional Certificate </h4>
-                    <p class="text-gray-400 text-sm mt-1">June - 2025</p>
-                </div>
-                <div class="card p-6 flex flex-col justify-center items-center">
+                <a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/62QM7292BX40" target="_blank" rel="noopener noreferrer" class="block">
+                    <div class="card p-6 flex flex-col justify-center items-center hover:shadow-lg transition">
+                        <h4 class="text-lg font-semibold" style="color: #FFFFFF;">Google Data Analytics Professional Certificate </h4>
+                        <p class="text-gray-400 text-sm mt-1">June - 2025</p>
+                    </div>
+                </a>
+                <a href="https://www.hackerrank.com/certificates/e9d9cf862096" target="_blank" rel="noopener noreferrer" class="block">
+                    <div class="card p-6 flex flex-col justify-center items-center hover:shadow-lg transition">
                     <h4 class="text-lg font-semibold" style="color: #FFFFFF;">HackerRank SQL (Advanced, Intermediate, Basic) Certificate</h4>
                     <p class="text-gray-400 text-sm mt-1">June - 2025</p>
-                </div>
+                    </div>
+                </a>
                 <div class="card p-6 flex flex-col justify-center items-center">
                     <h4 class="text-lg font-semibold" style="color: #FFFFFF;">Prize for Student of 5 faculty-level merits 2023, 2024</h4>
                     <p class="text-gray-400 text-sm mt-1">2023, 2024</p>
@@ -415,43 +428,59 @@ Analyst or Data Engineer.
                 <svg class="section-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3L1 9l11 6 11-6-11-6zM3 17v4h18v-4H3zm9-11.99L19.53 9l-7.53 4.14L4.47 9 12 5.01z"/></svg>
                 Education
             </h3>
-            <div class="card p-8 flex flex-col justify-between relative">
-                <a href="https://www.ueh.edu.vn/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.ueh.edu.vn/" target="_blank" rel="noopener noreferrer" class="block mb-6">
+                <div class="card p-8 flex flex-col justify-between relative hover:shadow-lg transition">
                     <img src="images/university_logo.png" alt="University Logo" class="absolute top-4 right-4 w-28 h-28 object-contain" />
-                </a>
-                <div class="text-left">
-                    <h4 class="text-xl font-bold text-white">Bachelor's Degree, E-Commerce</h4>
-                    <p class="text-gray-400 mb-2">University of Economics Ho Chi Minh City (UEH)</p>
-                    <p class="text-[#B0B0B0]">October 2022 - March 2026</p>
+                    <div class="text-left">
+                        <h4 class="text-xl font-bold text-white">Bachelor's Degree, E-Commerce</h4>
+                        <p class="text-gray-400">University of Economics Ho Chi Minh City (UEH)</p>
+                        <p class="text-gray-400 mb-2">October 2022 - March 2026</p>
+                        <p class="text-[#B0B0B0]">GPA: 3.78/4.0</p>
+                    </div>
                 </div>
-            </div>
+            </a>
+            <a href="http://thpt-chuyennguyenquangdieu.dongthap.edu.vn/" target="_blank" rel="noopener noreferrer" class="block mb-6">
+                <div class="card p-8 flex flex-col justify-between relative hover:shadow-lg transition">
+                    <img src="images/high_school.png" alt="Highschool Logo" class="absolute top-4 right-4 w-28 h-28 object-contain" />
+                    <div class="text-left">
+                        <h4 class="text-xl font-bold text-white">High School Diploma</h4>
+                        <p class="text-gray-400">Nguyễn Quang Diêu High School for The Gifted</p>
+                        <p class="text-gray-400 mb-2">2019 - 2022</p>
+                        <p class="text-[#B0B0B0]">Math major student, graduated with distinction.</p>
+                    </div>
+                </div>
+            </a>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="bg-gradient-to-r from-blue-900 to-gray-900 text-white py-16 px-4 animate-fade-in">
-        <div class="container mx-auto text-center">
-            <h3 class="text-3xl font-extrabold mb-8 text-white">
-                <svg class="section-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-                Contact Me
-            </h3>
-            <p class="text-lg mb-4 opacity-90">I'm always open to connecting and exploring new opportunities!</p>
-            <div class="flex flex-col items-center space-y-4">
-                <p class="text-lg flex items-center" style="color: #B0B0B0;">
-                    <!-- Email icon -->
-                    <svg class="icon" style="color: #00FFFF;" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l-7.997 3.998V5.884zM22 5.884v6.998l-7.997-3.998L22 5.884zM12 14.118l-10-5V4.002l10 5 10-5V9.118z"/></svg>
-                    khoinguyendata.work@gmail.com
-                </p>
-                <p class="text-lg flex items-center" style="color: #B0B0B0;">
-                    <!-- Phone icon -->
-                    <svg class="icon" style="color: #00FFFF;" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.46.57 3.57.11.35.02.75-.25 1.02L6.62 10.79z"/></svg>
-                    +84823971080
-                </p>
-                <p class="text-lg flex items-center" style="color: #B0B0B0;">
-                    <!-- Location icon -->
-                    <svg class="icon" style="color: #00FFFF;" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
-                    Ho Chi Minh City, Vietnam
-                </p>
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-center">
+            <!-- Ảnh cá nhân bên trái -->
+            <div class="mb-8 md:mb-0 md:mr-12 flex-shrink-0 flex justify-center w-full md:w-auto">
+                <img src="images/personal_photo.png" alt="Personal Photo" class="rounded-full w-40 h-40 object-cover shadow-lg" />
+            </div>
+            <!-- Nội dung liên hệ bên phải -->
+            <div class="text-center md:text-left">
+                <h3 class="text-3xl font-extrabold mb-8 text-white">Contact Me</h3>
+                <p class="text-lg mb-4 opacity-90">I'm always open to connecting and exploring new opportunities!</p>
+                <div class="flex flex-col items-center md:items-start space-y-4">
+                    <p class="text-lg flex items-center" style="color: #B0B0B0;">
+                        <!-- Email icon -->
+                        <svg class="icon" style="color: #00FFFF;" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M2.003 5.884L10 9.882l-7.997 3.998V5.884zM22 5.884v6.998l-7.997-3.998L22 5.884zM12 14.118l-10-5V4.002l10 5 10-5V9.118z"/></svg>
+                        khoinguyendata.work@gmail.com
+                    </p>
+                    <p class="text-lg flex items-center" style="color: #B0B0B0;">
+                        <!-- Phone icon -->
+                        <svg class="icon" style="color: #00FFFF;" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.46.57 3.57.11.35.02.75-.25 1.02L6.62 10.79z"/></svg>
+                        +84823971080
+                    </p>
+                    <p class="text-lg flex items-center" style="color: #B0B0B0;">
+                        <!-- Location icon -->
+                        <svg class="icon" style="color: #00FFFF;" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+                        Ho Chi Minh City, Vietnam
+                    </p>
+                </div>
             </div>
         </div>
     </section>
